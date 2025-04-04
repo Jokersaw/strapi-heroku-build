@@ -132,3 +132,10 @@ build
 
 # path: ./.gitignore
 package-lock.json
+.editorconfig
+.env.example
+.eslintrc
+.strapi*
+.eslintignore
+yarn.lock
+jsconfig.json
