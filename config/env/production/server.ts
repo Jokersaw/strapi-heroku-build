@@ -1,8 +1,8 @@
-// Path: ./config/env/production/server.ts`
-export default ({ env }) => ({
-    proxy: true,
-    url: env('MY_HEROKU_URL'), // Sets the public URL of the application.
+module.exports = ({ env }) => ({
+    url: env('RAILWAY_STATIC_URL', 'http://localhost:1337'),
+    host: '0.0.0.0',
+    port: env.int('PORT', 1337),
     app: {
-        keys: env.array('APP_KEYS')
+        keys: env.array('APP_KEYS'),
     },
 });
