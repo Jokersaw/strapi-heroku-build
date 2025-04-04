@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_education_obrazovanie",
+  "info": {
+    "displayName": "Образование",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "education_name": {
+      "type": "text"
+    },
+    "educate_end": {
+      "type": "biginteger"
+    },
+    "educate_start": {
+      "type": "biginteger"
+    },
+    "education_level": {
+      "type": "text"
+    }
+  }
+}

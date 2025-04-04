@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "persons",
+  "info": {
+    "singularName": "person",
+    "pluralName": "persons",
+    "displayName": "Person",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "person_name": {
+      "type": "text"
+    },
+    "companies": {
+      "type": "dynamiczone",
+      "components": [
+        "company.kompaniya"
+      ]
+    },
+    "educations": {
+      "type": "dynamiczone",
+      "components": [
+        "education.obrazovanie"
+      ]
+    },
+    "skills": {
+      "type": "dynamiczone",
+      "components": [
+        "skill.navyk"
+      ]
+    },
+    "person_address": {
+      "type": "text"
+    },
+    "person_phone": {
+      "type": "string"
+    },
+    "person_email": {
+      "type": "text"
+    }
+  }
+}

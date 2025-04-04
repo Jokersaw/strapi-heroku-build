@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_company_kompaniya",
+  "info": {
+    "displayName": "Компания",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company_name": {
+      "type": "string"
+    },
+    "company_description": {
+      "type": "text"
+    }
+  }
+}

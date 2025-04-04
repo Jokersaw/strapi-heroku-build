@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_skill_navyk",
+  "info": {
+    "displayName": "Навык",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "skill_name": {
+      "type": "string"
+    },
+    "skill_percent": {
+      "type": "integer"
+    }
+  }
+}
